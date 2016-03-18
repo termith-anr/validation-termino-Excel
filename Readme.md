@@ -103,7 +103,7 @@ Fichier contenant les termes du lexique de référence soit au format RDF
 
 soit au format TBX
 
-```
+```xml
 <termEntry xmlns="http://www.tbx.org" xml:id="BV.113227">
    <descrip type="originatingDatabaseName">Vocabulaire Linguistique</descrip>
    <admin type="conceptIdentifier">BV.113227</admin>
@@ -136,14 +136,16 @@ Fichier au format **ALIGN** des alignements obtenus entre candidats termes et te
 
 Exemple d'alignement par la méthode AROMA du terme "**anaphore associative**" :
 
-```
+```xml
 <map>
    <Cell rdf:about="414607">
       <entity1 rdf:resource='http://www.termsciences.fr/vocabs/CandidatsLinguistique/entry-1092493'/>
       <entity2 rdf:resource='http://www.termsciences.fr/vocabs/ML/113227'/>
       <relation>=</relation>
       <measure rdf:datatype='http://www.w3.org/2001/XMLSchema#float'>0.9277312808321435</measure>
-      <alignapilocalns:hasCellStatus xmlns:alignapilocalns="http://www.mondeca.com/system/publishing#">http://www.mondeca.com/system/publishing#ToBeReviewed</alignapilocalns:hasCellStatus>
+      <alignapilocalns:hasCellStatus xmlns:alignapilocalns="http://www.mondeca.com/system/publishing#">
+         http://www.mondeca.com/system/publishing#ToBeReviewed
+      </alignapilocalns:hasCellStatus>
    </Cell>
 </map>
 ```
