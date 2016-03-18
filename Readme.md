@@ -62,7 +62,7 @@ GenereXLSX.pl -c candidats -l lexique -e fichier Excel
 
 ## Candidats termes
 
-Fichier au format TBX contenant notamment pour chaque candidat terme un identifiant (*xml:id*), le terme en forme lemmatisée (*<term>*), le terme pilote (c'est-à-dire la forme la plus fréquente du candidat terme dans le corpus) et la liste de toutes les formes trouvées dans le corpus (*<descrip type="formList">*)
+Fichier au format TBX contenant notamment pour chaque candidat terme un identifiant (*xml:id*), le terme en forme lemmatisée (*\<term\>*), le terme pilote (c'est-à-dire la forme la plus fréquente du candidat terme dans le corpus) et la liste de toutes les formes trouvées dans le corpus (*\<descrip type="formList"\>*)
 
 ```xml
 <termEntry xml:id="TS1.4-entry-1092493">
