@@ -25,7 +25,7 @@ Script Perl de génération d'un fichier Excel servant à la validation de nouve
     
     - [Excel::Writer::XLSX](http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX/)
     
-    - Excel::Writer::XLSX::Utility (inclus dans la distribution d' Excel::Writer::XLSX)
+    - Excel::Writer::XLSX::Utility (*inclus dans la distribution d' Excel::Writer::XLSX*)
 
 # Lancer le programme
 
