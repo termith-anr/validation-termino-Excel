@@ -130,7 +130,7 @@ soit au format TBX
 </termEntry>
 ```
 
-## Alignement
+## Alignements
 
 Fichier au format **ALIGN** des alignements obtenus entre candidats termes et termes du lexique de référence soit par la méthode **AROMA**, soit par la méthode **SMOA**. 
 
