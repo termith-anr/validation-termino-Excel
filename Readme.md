@@ -1,7 +1,7 @@
 GenereXLSX.pl
 =============
 
-Script Perl de génération d'un fichier Excel servant à la validation de nouvelles entrées terminologiques dans le cadre du projet TermITH ([English version](https://github.com/termith-anr/validation-termino-Excel/blob/master/English.md)). 
+Script Perl de génération d'un fichier Excel servant à la validation de nouvelles entrées terminologiques dans le cadre du projet TermITH. ([English version](https://github.com/termith-anr/validation-termino-Excel/blob/master/English.md)) 
 
 *[En savoir plus sur Termith](http://www.atilf.fr/ressources/termith/)*
 
@@ -19,11 +19,13 @@ Script Perl de génération d'un fichier Excel servant à la validation de nouve
     
     - POSIX
     
-  -  à charger depuis le dépôt *[CPAN](http://www.cpan.org/modules/index.html)* :
+  -  à charger depuis un dépôt comme *[CPAN](http://www.cpan.org/modules/index.html)* :
   
     - [XML::Twig](http://xmltwig.org/xmltwig/)
     
     - [Excel::Writer::XLSX](http://search.cpan.org/~jmcnamara/Excel-Writer-XLSX/)
+    
+    - Excel::Writer::XLSX::Utility (inclus dans la distribution d' Excel::Writer::XLSX)
 
 # Lancer le programme
 
