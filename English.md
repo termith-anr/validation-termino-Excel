@@ -1,7 +1,7 @@
 GenereXLSX.pl
 =============
 
-Perl script to generate an Excel file for validating new terminological entries in the context of the TermITH project.
+Perl script to generate an Excel file for validating new terminological entries in the context of the TermITH project ([version française](https://github.com/termith-anr/validation-termino-Excel)).
 
 ### Requirements
 
